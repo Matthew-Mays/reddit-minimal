@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
+import React from 'react';
+import redditLogo from './images/reddit-logo.png';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className='logo-container'>
+          <img className='header-logo' src={redditLogo} alt='reddit logo' />
+          <h3 className='header-title'>RedditMinimal</h3>
+        </div>
       </header>
+      <section className='post-container'></section>
+      <section className='subreddit-container'></section>
     </div>
   );
 }
