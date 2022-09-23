@@ -1,0 +1,22 @@
+.header {
+    height: 4rem;
+    grid-column: 1/ -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 4rem;
+    border: 2px solid red;
+    gap: 1rem;
+    box-shadow: 0 10px 15px -3px lightgray;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    grid-column: 1/2;
+}
+
+.header-logo {
+    max-width: 2rem;
+    margin-right: .5rem;
+}
+  
