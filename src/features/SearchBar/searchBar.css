@@ -1,0 +1,17 @@
+.searchBar {
+    display: flex;
+}
+
+.searchBar__form {
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+    flex-grow: 1;
+}
+.searchBar__input {
+    padding: .5rem 1rem;
+    flex-grow: 1;
+    background-color: #E8E9E8;
+    border: none;
+    border-radius: .3rem;
+}

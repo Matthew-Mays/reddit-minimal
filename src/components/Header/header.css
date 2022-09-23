@@ -3,20 +3,24 @@
     grid-column: 1/ -1;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 4rem;
+    padding: 0 3rem;
     border: 2px solid red;
     gap: 1rem;
     box-shadow: 0 10px 15px -3px lightgray;
 }
 
-.logo-container {
+.header__logo-container {
     display: flex;
     align-items: center;
     grid-column: 1/2;
 }
 
-.header-logo {
+.header__logo {
     max-width: 2rem;
     margin-right: .5rem;
 }
-  
+
+.header__search-container {
+    grid-column: 2;
+    vertical-align: middle;
+}

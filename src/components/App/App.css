@@ -1,22 +1,19 @@
 .App {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  gap: 1rem;
 }
-
-
-
-
-
 
 .post-container {
   grid-column: 1/3;
   background-color: blue;
   height: 80rem;
+  margin-left: 1rem;
 }
 
 .subreddit-container {
   grid-column: 3;
   background-color: red;
   height: 80rem;
-
+  margin-right: 1rem;
 }
